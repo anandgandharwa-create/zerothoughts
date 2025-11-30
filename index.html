@@ -1,48 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Zero Thoughts</title>
+
 <style>
-body{
-    background: linear-gradient(180deg, #0A1A27, #07131C 60%, #050E15);
-    font-family: 'Segoe UI', sans-serif;
-    margin:0;
-    padding:40px 20px;
-    color:#F4E9C9;
-    text-align:center;
-}
-h1{
-    color:#F6E7BE;
-    font-size:38px;
-    margin-bottom:40px;
-    text-shadow:0 0 10px rgba(255,220,150,0.5);
-}
-.button{
-    display:block;
-    width:80%;
-    max-width:350px;
-    margin:20px auto;
-    padding:18px;
-    font-size:22px;
-    text-decoration:none;
-    color:#F4E9C9;
-    background: rgba(255,255,255,0.05);
-    border:2px solid rgba(255,232,180,0.4);
-    border-radius:50px;
-    box-shadow: 0 0 12px rgba(255,232,180,0.25);
-    transition:0.3s;
-}
-.button:hover{
-    background: rgba(255,255,255,0.12);
-    box-shadow:0 0 18px rgba(255,232,180,0.45);
-}
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        background: linear-gradient(135deg, #0d2f4d, #154a72, #0f3558);
+        color: #fff;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        max-width: 650px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 700;
+        text-shadow: 0 0 15px rgba(255,255,255,0.3);
+    }
+
+    .btn {
+        display: block;
+        width: 92%;
+        margin: 14px auto;
+        padding: 18px;
+        font-size: 22px;
+        font-weight: 600;
+        background: rgba(255, 255, 255, 0.18);
+        border-radius: 12px;
+        color: #e7f3ff;
+        border: 2px solid rgba(255,255,255,0.25);
+        text-decoration: none;
+        backdrop-filter: blur(6px);
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: rgba(255, 255, 255, 0.28);
+        border-color: #fff;
+    }
 </style>
 </head>
+
 <body>
-<h1>✨ Zero Thoughts ✨</h1>
-<a class="button" href="hindi_thoughts.html">🌿 Hindi Thoughts</a>
-<a class="button" href="english_thoughts.html">🌟 English Thoughts</a>
+
+<div class="container">
+    <h1>✨ Zero Thoughts ✨</h1>
+
+    <a class="btn" href="hindi_thoughts.html">🌿 Hindi Thoughts</a>
+    <a class="btn" href="english_thoughts.html">⭐ English Thoughts</a>
+    <a class="btn" href="both_thoughts.html">🌀 Both (Hindi + English)</a>
+    <a class="btn" href="today_thought.html">🌞 आज का विचार</a>
+</div>
+
 </body>
 </html>
